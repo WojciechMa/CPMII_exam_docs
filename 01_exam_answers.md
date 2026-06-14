@@ -244,11 +244,11 @@ Both share the framework of **variational inference:**
 
 | | FEP (Brain) | VAE (Machine Learning) |
 |---|---|---|
-| Goal | Minimize surprise | Maximize ELBO |
-| Encoder | Q(θ|D) ≈ P(θ|D) (recognition model) | Encoder network |
-| Decoder | P(D|θ) (generative model) | Decoder network |
-| Objective | Minimize Free Energy = −ELBO | Maximize ELBO |
-| Actions | Active inference (change D through action) | N/A |
+| Goal | Minimize Free Energy (= minimize surprise) | Maximize ELBO (= same thing, flipped sign) |
+| Encoder | Q(θ given D) ≈ P(θ given D) — recognition model | Encoder network |
+| Decoder | P(D given θ) — generative model | Decoder network |
+| Objective | Free Energy = −ELBO | ELBO = −Free Energy |
+| Actions | Active inference (change world through action) | N/A (no action) |
 
 **Key link:** Free Energy = −ELBO = surprise + KL divergence. Both minimize the same quantity. FEP goes further by adding **action** (active inference: change the world to match predictions, not just update beliefs).
 
