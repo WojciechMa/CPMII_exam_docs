@@ -6,11 +6,11 @@ Study materials for **Cognitive Processes Modeling II** (2026), Faculty of Psych
 
 | File | Description |
 |------|-------------|
-| `00_source_inventory.md` | Full inventory of source materials with quality assessment and importance ratings |
-| `01_exam_answers.md` | All exam preparation questions with synthesized answers (15 lectures) |
-| `02_quick_reference.md` | One-page cheat sheet: key models, formulas, and people |
-| `03_exam_comparison_2025_vs_2026.md` | Side-by-side comparison of 2025 and 2026 exam questions |
-| `notes/` | Per-lecture deep notes (14 files covering all topics) |
+| [00_source_inventory.md](00_source_inventory.md) | Full inventory of source materials with quality assessment and importance ratings |
+| [01_exam_answers.md](01_exam_answers.md) | All exam preparation questions with synthesized answers (15 lectures) |
+| [02_quick_reference.md](02_quick_reference.md) | One-page cheat sheet: key models, formulas, and people |
+| [03_exam_comparison_2025_vs_2026.md](03_exam_comparison_2025_vs_2026.md) | Side-by-side comparison of 2025 and 2026 exam questions |
+| [notes/](notes/) | Per-lecture deep notes (14 files covering all topics) |
 
 ## Topics Covered
 
